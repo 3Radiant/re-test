@@ -1,0 +1,4 @@
+-- Intentionally empty.
+-- A script named "Animate" in StarterCharacterScripts stops Roblox from adding its
+-- default Animate script, so CharacterController is the only thing playing movement
+-- animations (idle / walk / run / crouch / fall).

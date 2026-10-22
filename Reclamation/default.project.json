@@ -1,0 +1,59 @@
+{
+  "name": "Reclamation",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": { "$path": "src/shared" }
+    },
+
+    "ServerScriptService": {
+      "Server": { "$path": "src/server" }
+    },
+
+    "ServerStorage": {
+      "Titans": { "$path": "assets/titans" },
+      "Guns": { "$path": "assets/guns" }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": { "$path": "src/client" }
+      },
+      "StarterCharacterScripts": {
+        "Animate": { "$path": "src/character/Animate.client.luau" }
+      }
+    },
+
+    "Workspace": {
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [0.38823, 0.37254, 0.38823],
+          "Locked": true,
+          "Position": [0, -10, 0],
+          "Size": [512, 20, 512]
+        }
+      },
+      "SpawnLocation": {
+        "$className": "SpawnLocation",
+        "$properties": {
+          "Anchored": true,
+          "Position": [0, 0.5, 0],
+          "Size": [12, 1, 12],
+          "Transparency": 0.6
+        }
+      },
+      "Hitboxes": { "$className": "Folder" }
+    },
+
+    "Lighting": {
+      "$properties": {
+        "Ambient": [0, 0, 0],
+        "Brightness": 2,
+        "GlobalShadows": true
+      }
+    }
+  }
+}
